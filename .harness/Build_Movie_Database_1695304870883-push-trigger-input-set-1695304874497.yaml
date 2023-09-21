@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_Movie_Database_1695304870883-push-trigger-input-set
+  identifier: Build_Movie_Database_1695304870883pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_Movie_Database_1695304870883
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
