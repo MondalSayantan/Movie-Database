@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_Movie_Database_1695304870883-pr-trigger-input-set
+  identifier: Build_Movie_Database_1695304870883prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_Movie_Database_1695304870883
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
